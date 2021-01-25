@@ -7,6 +7,7 @@ files = os.listdir(path=os.getcwd())
 print(files)
 
 print("current dir = ", os.path.dirname(__file__))
+print("current dir = ", os.getcwd())
 
 # Создаем новую директорию
 dir_path = os.path.join(os.getcwd(), 'NewDir')
